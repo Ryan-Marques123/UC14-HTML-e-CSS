@@ -1,0 +1,88 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Honk:MORF@15&display=swap');
+
+
+:root {
+    --cor-primaria: #3498db;
+    --cor-secundaria: #eb0186;
+    --cor-fundo: #6c0055;
+    --cor-texto: #333;
+    --cor-branca: #fff;
+    --cor-preta: #000;
+    --cor-cinza: #888;
+
+    --fonte-principal: 'Arial', sans-serif;
+    --fonte--secundaria: 'Honk', sans-serif;
+
+    --borda-radius: 10px;
+    --sombra: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+    body {
+    
+    background: linear-gradient(135deg, #ff0059, #ff29f8, #ff008c);
+        margin: 0;
+        padding: 0;
+        background-color: var(--cor-fundo);
+        color: var(--cor-texto);
+        font-family: var(--fonte--secundaria);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;   
+
+    }
+    .caixa {
+        margin-left: 400px;
+        background-color: var(--cor-secundaria);
+        padding: 20px;
+        border-radius: var(--borda-radius);
+        box-shadow: var(--sombra);
+        text-align: center;
+        width: 300px;
+        
+    }
+
+.Artistas {
+    img {
+        border-radius: var(--borda-radius);
+        box-shadow: var(--sombra);
+        margin-top: 10px;
+    }
+    color: var(--cor-secundaria);
+    background-color: var(--cor-preta);
+    padding: 20px;
+    border-radius: var(--borda-radius);
+    box-shadow: var(--cor-cinza);
+    text-align: right;
+    width: 200px;
+    
+    border: #eb0186 solid 4px;
+    margin-left: 380px;
+    font-size: 23px;
+    height: 670px;
+    
+}
+.tela-entrada {
+    background: linear-gradient(135deg, #ff0059, #ff29f8, #ff008c);
+    padding: 40px 30px;
+    border-radius: var(--borda-radius);
+    box-shadow: var(--sombra);
+    text-align: center;
+    width: 350px;
+    margin-bottom: 40px;
+    button {
+        background-color: var(--cor-primaria);
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: var(--borda-radius);
+        cursor: pointer;
+    }
+}
+.btn-entrar {
+    
+    margin-right: 16px;
+}
+.btn-entrar:last-child {
+    margin-right: 0; 
+}
