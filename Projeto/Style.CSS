@@ -1,0 +1,104 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #000000; 
+    
+    
+    background: linear-gradient(180deg, #40ff00 0%, #2b6937 50%, #000000 100%);
+    ;
+
+}
+
+
+.secao-usuarios {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+
+
+
+.container-usuarios {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 30px; 
+    max-width: 1200px;
+    margin: 0 auto; 
+}
+
+
+.card {
+    background-color: #2b6937; 
+    width: 260px; 
+    padding: 30px 20px;
+    border-radius: 12px; 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); 
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
+    text-align: center; 
+    transition: transform 0.3s ease; 
+}
+
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+
+.foto-perfil {
+    width: 120px; 
+    height: 120px; 
+    border-radius: 50%;
+    object-fit: cover; 
+    margin-bottom: 15px;
+    border: 3px solid #9dff00; 
+}
+
+
+.nome {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    color: #2bff00;
+}
+
+.cargo {
+    font-size: 0.9rem;
+    color: #7f8c8d;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.descricao {
+    font-size: 0.9rem;
+    color: #000000;
+    margin-bottom: 25px;
+    line-height: 1.5;
+    flex-grow: 1; 
+}
+
+
+.btn-perfil {
+    background-color: #90f551; 
+    color: white;
+    border: none; 
+    padding: 10px 20px;
+    border-radius: 20px; 
+    font-size: 0.9rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+    width: 100%;
+}
+
+
+.btn-perfil:hover {
+    background-color: #20d3a3; 
+}
