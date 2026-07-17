@@ -1,0 +1,144 @@
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    background-color: #fff;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #111;
+    color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+    font-weight: 500;
+}
+
+header nav a:hover {
+    color: #f0a500;
+}
+
+
+.hero {
+    height: 100vh;
+    
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://static.todamateria.com.br/upload/pa/is/paisagem-natural-og.jpg?class=ogImageWide') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+}
+
+
+.portfolio {
+    padding: 80px 50px;
+    text-align: center;
+}
+
+.portfolio h2 {
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+}
+
+.galeria-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+
+.foto {
+    overflow: hidden;
+    border-radius: 8px;
+    background-color: #eee;
+}
+
+.foto img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.4s ease, filter 0.4s ease;
+}
+
+.foto:hover img {
+    transform: scale(1.08);
+    filter: brightness(0.8);
+}
+
+
+.sobre {
+    padding: 80px 50px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.sobre h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.sobre p {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+
+footer {
+    padding: 40px;
+    background-color: #111;
+    color: #fff;
+    text-align: center;
+}
+
+footer h2 {
+    margin-bottom: 15px;
+}
+
+footer p {
+    margin: 5px 0;
+    color: #ccc;
+}
